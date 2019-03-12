@@ -80,7 +80,7 @@ const factory = function factoryFunc (L) {
         return container
       }
     },
-    minimizeControl() {
+    minimizeControl: function() {
       if (this.options.style === 'control') {
         this.collapse()
       } else {
